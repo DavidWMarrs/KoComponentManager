@@ -1,0 +1,8 @@
+<!-- ko foreach: descriptionLists -->
+<div data-bind="component: $data"></div>
+<!-- /ko -->
+
+<form data-bind="submit:submit">
+    <button type="submit">Submit</button>
+    <button type="button" data-bind="click:goBack">Back</button>
+</form>

@@ -1,0 +1,7 @@
+<form data-bind="submit:submit">
+    <!-- ko foreach: fieldSets -->
+        <div data-bind="component: $data"></div>
+    <!-- /ko -->
+    <button type="submit">Proceed</button>
+    <button type="button" data-bind="click:goBack, visible:showBackButton()">Back</button>
+</form>

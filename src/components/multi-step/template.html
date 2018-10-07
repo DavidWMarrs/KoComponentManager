@@ -1,0 +1,7 @@
+<ul data-bind="foreach:stepTitle">
+    <li data-bind="text:$data, style: { fontWeight: ($index + 1 == activeStep()) ? 'bold' : 'normal' }"></li>
+</ul>
+
+<!-- ko foreach: steps -->
+<div data-bind="component: $data, visible: $index + 1 == activeStep()"></div>
+<!-- /ko -->

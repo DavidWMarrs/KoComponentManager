@@ -1,0 +1,15 @@
+{
+    "compilerOptions": {
+        "outDir": "./built/",
+        "sourceMap": true,
+        "noImplicitAny": true,
+        "module": "amd",
+        "target": "es5",
+        "moduleResolution": "node"
+    },
+    "files": [
+        "./src/@types/index.d.ts",
+        "./src/require-config.ts",
+        "./src/bootstrapper.ts"
+    ]
+}
