@@ -7,7 +7,10 @@ export const name = "form-step";
 const config : KnockoutComponentTypes.Config = {
     template: template,
     viewModel: {
-        createViewModel: (params) => new FormStepViewModel(params)
+        createViewModel: (params, componentInfo) => {
+            const validator = $(componentInfo.element).validate();
+            new FormStepViewModel(params, validator);
+        }
     }
 };
 
