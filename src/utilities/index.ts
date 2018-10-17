@@ -6,3 +6,10 @@ export interface IKoComponentBinding<T extends object>{
 export interface IKoComponentBindingBuilder{
     generateBinding: () => IKoComponentBinding<object>;
 }
+
+export interface IBasicValidator {
+    form(): boolean;
+    resetForm(): void;
+    numberOfInvalids(): number;
+    destroy(): void;
+}

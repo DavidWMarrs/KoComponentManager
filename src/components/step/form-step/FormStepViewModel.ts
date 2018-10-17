@@ -1,13 +1,6 @@
 import IFormStepParams from "./IFormStepParams";
-import { IKoComponentBinding } from "../../../utilities";
+import { IKoComponentBinding, IBasicValidator } from "../../../utilities";
 import StepViewModel from "../StepViewModel";
-
-interface IBasicValidator {
-    form(): boolean;
-    resetForm(): void;
-    numberOfInvalids(): number;
-    destroy(): void;
-}
 
 export default class FormStepViewModel extends StepViewModel {
     private validator: IBasicValidator;
