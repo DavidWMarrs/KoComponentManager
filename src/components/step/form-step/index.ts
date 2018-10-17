@@ -8,7 +8,7 @@ const config : KnockoutComponentTypes.Config = {
     template: template,
     viewModel: {
         createViewModel: (params, componentInfo) => {
-            const validator = $(componentInfo.element).validate();
+            const validator = $('form', componentInfo.element).validate();
             new FormStepViewModel(params, validator);
         }
     }
