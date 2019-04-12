@@ -1,4 +1,4 @@
-import {IKoComponentBindingBuilder, IKoComponentBinding} from "../utilities";
+import {IKoComponentBindingBuilder} from "../utilities";
 import * as DescriptionList from "../components/description-list"
 import ComponentCollection from "./ComponentCollection";
 

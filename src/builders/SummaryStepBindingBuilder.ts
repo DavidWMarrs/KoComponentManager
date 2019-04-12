@@ -1,5 +1,5 @@
-import {IKoComponentBindingBuilder, IKoComponentBinding} from "../utilities";
-import * as SummaryStep from "../components/step/summary-step"
+import {IKoComponentBindingBuilder} from "../utilities";
+import * as SummaryStep from "../components/step/summary-step";
 import ComponentCollection from "./ComponentCollection";
 
 export class SummaryStepBindingBuilder implements IKoComponentBindingBuilder {

@@ -1,5 +1,5 @@
-import {IKoComponentBindingBuilder, IKoComponentBinding} from "../utilities";
-import * as FormStep from "../components/step/form-step"
+import {IKoComponentBindingBuilder} from "../utilities";
+import * as FormStep from "../components/step/form-step";
 import ComponentCollection from "./ComponentCollection";
 
 export default class FormStepBindingBuilder implements IKoComponentBindingBuilder {

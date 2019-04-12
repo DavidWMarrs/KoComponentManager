@@ -5,10 +5,10 @@
         "noImplicitAny": true,
         "module": "amd",
         "target": "es5",
-        "moduleResolution": "node"
+        "moduleResolution": "node",
+        "typeRoots": ["node_modules/@types", "src/@types"]
     },
     "files": [
-        "./src/@types/index.d.ts",
         "./src/require-config.ts",
         "./src/bootstrapper.ts"
     ]

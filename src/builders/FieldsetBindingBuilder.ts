@@ -1,5 +1,5 @@
-import {IKoComponentBindingBuilder, IKoComponentBinding} from "../utilities";
-import * as Fieldset from "../components/fieldset"
+import {IKoComponentBindingBuilder} from "../utilities";
+import * as Fieldset from "../components/fieldset";
 import ComponentCollection from "./ComponentCollection";
 
 export default class FieldsetBindingBuilder implements IKoComponentBindingBuilder {

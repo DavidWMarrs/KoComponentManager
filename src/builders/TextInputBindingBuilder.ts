@@ -1,5 +1,4 @@
-import {IKoComponentBindingBuilder} from "../utilities";
-import * as TextInput from "../components/text-input"
+import * as TextInput from "../components/text-input";
 import BasicBindingBuilder from "./BasicBindingBuilder";
 
 export default class TextInputBindingBuilder extends BasicBindingBuilder{

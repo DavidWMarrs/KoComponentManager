@@ -1,5 +1,5 @@
-import {IKoComponentBindingBuilder, IKoComponentBinding} from "../utilities";
-import * as MultiStep from "../components/multi-step"
+import {IKoComponentBindingBuilder} from "../utilities";
+import * as MultiStep from "../components/multi-step";
 import ComponentCollection from "./ComponentCollection";
 
 export default class MultiStepBindingBuilder implements IKoComponentBindingBuilder {

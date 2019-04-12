@@ -1,4 +1,3 @@
-import {IKoComponentBindingBuilder} from "../utilities";
 import * as TextDescription from "../components/description/text-description"
 import BasicBindingBuilder from "./BasicBindingBuilder";
 
